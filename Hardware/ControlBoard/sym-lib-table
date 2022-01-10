@@ -1,0 +1,11 @@
+(sym_lib_table
+  (lib (name OPA2227UA_2K5)(type Legacy)(uri /home/tobias/Documents/STM/ControlBoard/OPA2227UA_2K5/OPA2227UA_2K5.lib)(options "")(descr ""))
+  (lib (name INA146UA_2K5)(type Legacy)(uri /home/tobias/Documents/STM/ControlBoard/INA146UA_2K5/INA146UA_2K5.lib)(options "")(descr ""))
+  (lib (name AD7685BRMZ)(type Legacy)(uri /home/tobias/Documents/STM/ControlBoard/AD7685BRMZ/AD7685BRMZ.lib)(options "")(descr ""))
+  (lib (name REF5050AIDR)(type Legacy)(uri /home/tobias/Documents/STM/ControlBoard/REF5050AIDR/REF5050AIDR.lib)(options "")(descr ""))
+  (lib (name AD5676ARUZ_REEL7)(type Legacy)(uri /home/tobias/Documents/STM/ControlBoard/AD5676ARUZ_REEL7/AD5676ARUZ_REEL7.lib)(options "")(descr ""))
+  (lib (name TLP117)(type Legacy)(uri /home/tobias/Documents/STM/ControlBoard/TLP117/TLP117.lib)(options "")(descr ""))
+  (lib (name STM32G431C6T6)(type Legacy)(uri /home/tobias/Documents/STM/ControlBoard/STM32G431C6T6/STM32G431C6T6.lib)(options "")(descr ""))
+  (lib (name power_custom)(type Legacy)(uri /home/tobias/Documents/STM/ControlBoard/power/power_custom.lib)(options "")(descr ""))
+  (lib (name ControlBoard-rescue)(type Legacy)(uri ${KIPRJMOD}/ControlBoard-rescue.lib)(options "")(descr ""))
+)

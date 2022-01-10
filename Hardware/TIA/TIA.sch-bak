@@ -1,0 +1,252 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Amplifier_Operational:ADA4530-1 U1
+U 1 1 5F48F8C8
+P 5050 3950
+F 0 "U1" H 5394 3996 50  0000 L CNN
+F 1 "ADA4530-1" H 5394 3905 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5050 3950 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4530-1.pdf" H 5050 3600 50  0001 L CNN
+	1    5050 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+15V #PWR04
+U 1 1 5F48FC94
+P 4950 3650
+F 0 "#PWR04" H 4950 3500 50  0001 C CNN
+F 1 "+15V" H 4965 3823 50  0000 C CNN
+F 2 "" H 4950 3650 50  0001 C CNN
+F 3 "" H 4950 3650 50  0001 C CNN
+	1    4950 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5F48FDF0
+P 4950 4250
+F 0 "#PWR05" H 4950 4000 50  0001 C CNN
+F 1 "GND" H 4955 4077 50  0000 C CNN
+F 2 "" H 4950 4250 50  0001 C CNN
+F 3 "" H 4950 4250 50  0001 C CNN
+	1    4950 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5F491288
+P 5050 4800
+F 0 "R1" V 4843 4800 50  0000 C CNN
+F 1 "100MOhm" V 4934 4800 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4980 4800 50  0001 C CNN
+F 3 "~" H 5050 4800 50  0001 C CNN
+	1    5050 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5F491DB5
+P 5050 5200
+F 0 "C1" V 4798 5200 50  0000 C CNN
+F 1 "300fF" V 4889 5200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5088 5050 50  0001 C CNN
+F 3 "~" H 5050 5200 50  0001 C CNN
+	1    5050 5200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 3950 5450 3950
+Wire Wire Line
+	5450 3950 5450 4800
+Wire Wire Line
+	5450 4800 5200 4800
+Wire Wire Line
+	4900 4800 4650 4800
+Wire Wire Line
+	4650 4800 4650 4050
+Wire Wire Line
+	4650 4050 4750 4050
+Wire Wire Line
+	4650 4800 4650 5200
+Wire Wire Line
+	4650 5200 4900 5200
+Connection ~ 4650 4800
+Wire Wire Line
+	5200 5200 5450 5200
+Wire Wire Line
+	5450 5200 5450 4800
+Connection ~ 5450 4800
+NoConn ~ 5150 4250
+Text GLabel 4750 3850 0    50   Input ~ 0
+V_TIP
+$Comp
+L Device:C C2
+U 1 1 5F492B5C
+P 6300 2950
+F 0 "C2" H 6415 2996 50  0000 L CNN
+F 1 "4.7uF" H 6415 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6338 2800 50  0001 C CNN
+F 3 "~" H 6300 2950 50  0001 C CNN
+	1    6300 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5F492D43
+P 6750 2950
+F 0 "C3" H 6865 2996 50  0000 L CNN
+F 1 "100nF" H 6865 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6788 2800 50  0001 C CNN
+F 3 "~" H 6750 2950 50  0001 C CNN
+	1    6750 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+15V #PWR06
+U 1 1 5F493435
+P 6300 2700
+F 0 "#PWR06" H 6300 2550 50  0001 C CNN
+F 1 "+15V" H 6315 2873 50  0000 C CNN
+F 2 "" H 6300 2700 50  0001 C CNN
+F 3 "" H 6300 2700 50  0001 C CNN
+	1    6300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5F49363D
+P 6300 3200
+F 0 "#PWR07" H 6300 2950 50  0001 C CNN
+F 1 "GND" H 6305 3027 50  0000 C CNN
+F 2 "" H 6300 3200 50  0001 C CNN
+F 3 "" H 6300 3200 50  0001 C CNN
+	1    6300 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 2700 6300 2800
+Wire Wire Line
+	6300 3100 6300 3200
+Wire Wire Line
+	6750 2800 6300 2800
+Connection ~ 6300 2800
+Wire Wire Line
+	6750 3100 6300 3100
+Connection ~ 6300 3100
+$Comp
+L Device:R R2
+U 1 1 5F494F93
+P 6150 3950
+F 0 "R2" V 5943 3950 50  0000 C CNN
+F 1 "750Ohm" V 6034 3950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6080 3950 50  0001 C CNN
+F 3 "~" H 6150 3950 50  0001 C CNN
+	1    6150 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 3950 5450 3950
+Connection ~ 5450 3950
+NoConn ~ 5050 3650
+Text GLabel 5150 4400 2    50   Input ~ 0
+SHLD
+Wire Wire Line
+	5050 4250 5050 4400
+Wire Wire Line
+	5050 4400 5150 4400
+$Comp
+L Connector_Generic_Shielded:Conn_01x01_Shielded J2
+U 1 1 5F4992A0
+P 3900 4050
+F 0 "J2" H 3988 3921 50  0000 L CNN
+F 1 "TIP" H 3988 4012 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 3900 4050 50  0001 C CNN
+F 3 "~" H 3900 4050 50  0001 C CNN
+	1    3900 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4650 4050 4100 4050
+Connection ~ 4650 4050
+Text GLabel 3900 3850 1    50   Input ~ 0
+SHLD
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 5F499C69
+P 3900 4400
+F 0 "J3" H 3818 4175 50  0000 C CNN
+F 1 "BIAS" H 3818 4266 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 3900 4400 50  0001 C CNN
+F 3 "~" H 3900 4400 50  0001 C CNN
+	1    3900 4400
+	-1   0    0    1   
+$EndComp
+Text GLabel 4100 4400 2    50   Input ~ 0
+BIAS
+$Comp
+L Connector:Conn_01x06_Male J1
+U 1 1 5F49ACCB
+P 2250 4250
+F 0 "J1" H 2358 4631 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 2358 4540 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2250 4250 50  0001 C CNN
+F 3 "~" H 2250 4250 50  0001 C CNN
+	1    2250 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5F49B5C0
+P 2450 4350
+F 0 "#PWR03" H 2450 4100 50  0001 C CNN
+F 1 "GND" V 2455 4222 50  0000 R CNN
+F 2 "" H 2450 4350 50  0001 C CNN
+F 3 "" H 2450 4350 50  0001 C CNN
+	1    2450 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+15V #PWR02
+U 1 1 5F49B939
+P 2450 4250
+F 0 "#PWR02" H 2450 4100 50  0001 C CNN
+F 1 "+15V" V 2465 4378 50  0000 L CNN
+F 2 "" H 2450 4250 50  0001 C CNN
+F 3 "" H 2450 4250 50  0001 C CNN
+	1    2450 4250
+	0    1    1    0   
+$EndComp
+Text GLabel 2450 4150 2    50   Input ~ 0
+TIA_DATA
+$Comp
+L power:GND #PWR01
+U 1 1 5F49BECA
+P 2450 4050
+F 0 "#PWR01" H 2450 3800 50  0001 C CNN
+F 1 "GND" V 2455 3922 50  0000 R CNN
+F 2 "" H 2450 4050 50  0001 C CNN
+F 3 "" H 2450 4050 50  0001 C CNN
+	1    2450 4050
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6300 3950 2    50   Input ~ 0
+TIA_DATA
+Text GLabel 2450 4450 2    50   Input ~ 0
+V_TIP
+Text GLabel 2450 4550 2    50   Input ~ 0
+BIAS
+$EndSCHEMATC

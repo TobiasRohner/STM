@@ -1,0 +1,9 @@
+(fp_lib_table
+  (lib (name SS2PH10-M3)(type KiCad)(uri /home/tobias/Documents/STM/ControlBoard/PSU/SS2PH10-M3/SS2PH10-M3.pretty)(options "")(descr ""))
+  (lib (name SS14FL)(type KiCad)(uri /home/tobias/Documents/STM/ControlBoard/PSU/SS14FL/SS14FL.pretty)(options "")(descr ""))
+  (lib (name MWSA1206S)(type KiCad)(uri /home/tobias/Documents/STM/ControlBoard/PSU/MWSA1206S/MWSA1206S.pretty)(options "")(descr ""))
+  (lib (name FXL1360)(type KiCad)(uri /home/tobias/Documents/STM/ControlBoard/PSU/FXL1360/FXL1360.pretty)(options "")(descr ""))
+  (lib (name MSA75-150M)(type KiCad)(uri /home/tobias/Documents/STM/ControlBoard/PSU/MSA75-150M/MSA75-150M.pretty)(options "")(descr ""))
+  (lib (name BarrierBlock)(type KiCad)(uri /home/tobias/Documents/STM/ControlBoard/PSU/BarrierBlock/BarrierBlock.pretty)(options "")(descr ""))
+  (lib (name artwork)(type KiCad)(uri /home/tobias/Documents/STM/ControlBoard/PSU/artwork)(options "")(descr ""))
+)

@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name TPS56339DDC)(type Legacy)(uri /home/tobias/Documents/STM/ControlBoard/PSU/TPS56339DDC/TPS56339DDC.lib)(options "")(descr ""))
+  (lib (name power_custom)(type Legacy)(uri /home/tobias/Documents/STM/ControlBoard/power/power_custom.lib)(options "")(descr ""))
+  (lib (name LM5576MH)(type Legacy)(uri /home/tobias/Documents/STM/ControlBoard/PSU/LM5576MH/LM5576MH.lib)(options "")(descr ""))
+  (lib (name PSU-rescue)(type Legacy)(uri ${KIPRJMOD}/PSU-rescue.lib)(options "")(descr ""))
+)

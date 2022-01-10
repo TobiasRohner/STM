@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32G431C6T6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00254865.pdf
+$ENDCMP
+#
+#End Doc Library

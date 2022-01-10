@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name BarrierBlock)(type KiCad)(uri /home/tobias/Documents/STM/ControlBoard/PSU/BarrierBlock/BarrierBlock.pretty)(options "")(descr ""))
+  (lib (name artwork)(type KiCad)(uri /home/tobias/Documents/STM/ControlBoard/artwork)(options "")(descr ""))
+)
